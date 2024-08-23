@@ -1,0 +1,501 @@
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 40px;
+    right: 40px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 999;
+}
+
+.fa-whatsapp{
+    font-size: 60px; 
+}
+
+.float:hover {
+    background-color: #32e975;
+    transform: translateY(-5px); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6); 
+
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f8f9fa;
+   /* background: linear-gradient(to bottom, #DFDD90, #FFFFFF); fondo con gradiente para probar */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header-overlay {
+    font-family: Fjalla One;
+}
+/* Estilo para las cards */
+
+
+.titulo {
+    text-align: center;
+    font-family: Fjalla One;
+    margin-top: 2%;
+}
+
+.contenedorCards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+
+.cardI {
+    width: 300px;
+    border: 3px solid  #EDEBD4;
+    border-radius: 3%;
+    padding: 30px;
+    margin: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: none; /* Elimina la decoración del enlace */
+    color: inherit; /* Mantiene el color del texto */
+    display: block; /* Asegura que el enlace cubra toda la card */
+  }
+
+  .cardI:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6); 
+  }
+
+
+  .cardI img {width: 20%;
+    border-radius: 5%;}
+
+.infoC {
+    font-family: Montserrat;
+    text-align: left;
+}
+
+
+/* fin de las cards */
+
+.insta:hover{
+    transform: translateY(-5px); 
+    border: 3px solid  #D23280
+    
+
+}
+.insta:hover h2 {
+    color:  #D23280;
+}
+
+
+
+.face:hover{
+    transform: translateY(-5px); 
+    border: 3px solid #3b5998 
+    
+
+}
+.face:hover h2 {
+    color: #3b5998 
+}
+
+
+
+.link:hover{
+    transform: translateY(-5px); 
+    border: 3px solid  #007bb6;
+
+}
+.link:hover h2 {
+    color:  #007bb6;
+}
+
+
+
+/* fin de las cards */
+
+/* Estilo para la barra de navegación */
+
+.navbar {
+    background: #DFDD90;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.navbar img {
+    width: 60px;
+    height: 60px;
+}
+.navbar-logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-brand {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Fjalla One;
+}
+
+
+
+/* Header */
+
+
+
+
+.containerH {
+    max-width: 100%; /* Ajustar el ancho máximo del contenedor */
+    height: 40vh; /* Altura reducida del contenedor */
+    position: relative; /* Posicionar los elementos hijos */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrar contenido horizontal y verticalmente */
+}
+
+.header-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Asegura que la imagen cubra el contenedor */
+}
+
+.header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin distorsión */
+    filter: brightness(30%); /* Oscurece la imagen de fondo */
+}
+
+.header-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el contenido sobre la imagen */
+    text-align: center; /* Centra el texto */
+    color: #fff; /* Color del texto brillante sobre la imagen */
+    padding: 20px;
+}
+
+.header-overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.header-overlay .btn {
+    background-color: #DFDD90;
+    color: black;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem; /* Ajuste del tamaño del texto del botón */
+}
+
+
+/* aca termina el header */
+
+
+
+
+/* Sección QUIEN SOY */
+
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    
+}
+
+.containerQS {
+    display: flex;
+    align-items: stretch; /* Asegura que las secciones tengan el mismo alto */
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-side {
+    flex: 1;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el texto verticalmente */
+    text-align: justify; /* Justifica el texto */
+}
+
+.text-side p {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center; /* Centra el botón dentro del contenedor */
+}
+
+.image-side {
+    flex: 1;
+    display: flex;
+    align-items: center; /* Centra la imagen verticalmente */
+    justify-content: center; /* Centra la imagen horizontalmente */
+}
+
+.image-side img {
+    width: 70%;
+    height: auto;
+    max-height: 100%; /* Ajusta la imagen a la altura del contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
+    border-radius: 8px; /* Opcional: bordes redondeados de la imagen */
+}
+
+.section-title {
+    margin: 20px 0;
+    text-align: left;
+    font-size: 2rem;
+    color: black
+}
+
+.boton-QS {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DFDD90;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+/* FIN QUIEN SOY */
+
+
+/* Servicios */
+
+
+.services {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+}
+
+.services .service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.services img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.services .card-title {
+    font-size: 1.25rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.services .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: justify;
+}
+.contact-info {
+    text-align: center;
+
+}
+.containerF {
+    padding: 10px;
+    text-align: justify;
+}
+.containerF a{
+    text-decoration: none;
+    color:  #DFDD90;
+
+}
+/* Mapa */
+.map {
+    width: 100%;
+    height: 300px;
+    background-color: #e9ecef;
+}
+
+
+
+/* Media Queries */
+
+
+@media (max-width: 1088px) {
+    /* Navbar */
+    .navbar {
+        padding: 16px;
+        font-size: 16px;
+    }
+    .navbar img {
+        width: 35px;
+        height: 35px;
+    }
+    .navbar-brand {
+        font-size: 14px;
+    }
+
+    /* Header */
+    .header-overlay h1 {
+        font-size: 1.75rem;
+    }
+    .header-overlay p {
+        font-size: 0.95rem;
+    }
+
+    /* Cards */
+    .contenedorCards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 15px;
+    }
+    .cardI {
+        width: 80%;
+        max-width: 350px;
+        margin: 15px 0;
+    }
+    .cardI img {
+        width: 40%;
+    }
+    .infoC {
+        font-size: 0.95rem;
+    }
+
+    /* Quiénes Somos */
+    .text-side {
+        padding: 10px;
+        text-align: center;
+    }
+    .image-side img {
+        width: 100%;
+    }
+
+    /* Mapa */
+    .map {
+        height: 250px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 25px;
+        font-size: 0.95rem;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    /* Navbar */
+    .float{
+        position: fixed;
+    }
+    .navbar {
+        padding: 18px;
+        font-size: 18px;
+    }
+    .navbar img {
+        width: 40px;
+        height: 40px;
+    }
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    /* Header */
+    .containerH {
+        height: 50vh; /* Ajusta la altura del contenedor del header para pantallas pequeñas */
+    }
+    .header-image img {
+        height: 95%; /* Ajusta la imagen para que se adapte al contenedor reducido */
+    }
+    .header-overlay h1 {
+        font-size: 1.5rem;
+    }
+    .header-overlay p {
+        font-size: 0.9rem;
+    }
+
+    /* Cards */
+
+    .contenedorCards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .cardI {
+        width: 100%; /* Asegura que las tarjetas ocupen el ancho completo del contenedor */
+        max-width: 300px; /* Define un ancho máximo para las tarjetas */
+        margin: 10px 0; /* Reduce los márgenes verticales */
+    }
+    .cardI img {
+        width: 30%; /* Ajusta el tamaño de la imagen dentro de la tarjeta */
+    }
+    .infoC {
+        font-size: 0.9rem; /* Reduce el tamaño del texto dentro de las tarjetas */
+    }
+
+    /* Quiénes Somos */
+    .text-side {
+        padding: 0;
+        text-align: center;
+    }
+    .image-side img {
+        width: 100%; /* Ajusta la imagen para que ocupe todo el ancho del contenedor */
+    }
+
+    /* Mapa */
+    .map {
+        height: 200px; /* Ajusta la altura del mapa para pantallas más pequeñas */
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px;
+        font-size: 0.9rem;
+    }
+    .contact-info {
+        text-align: center;
+    }
+}
