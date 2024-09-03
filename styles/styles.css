@@ -363,7 +363,12 @@ body {
 /* Media Queries */
 
 
-@media (max-width: 1088px) {
+
+/* tablets */
+/* No se como hacer para cambiar esta parte del codigo, por alguna razon si la borro el otro media query no funciona 
+tengo que seguir buscando formas de solucionarlo*/
+
+@media (max-width: 768px ) {
     /* Navbar */
     .navbar {
         padding: 16px;
@@ -425,77 +430,4 @@ body {
 }
 
 
-
-@media (max-width: 576px) {
-    /* Navbar */
-    .float{
-        position: fixed;
-    }
-    .navbar {
-        padding: 18px;
-        font-size: 18px;
-    }
-    .navbar img {
-        width: 40px;
-        height: 40px;
-    }
-    .navbar-brand {
-        font-size: 16px;
-    }
-
-    /* Header */
-    .containerH {
-        height: 50vh; /* Ajusta la altura del contenedor del header para pantallas pequeñas */
-    }
-    .header-image img {
-        height: 95%; /* Ajusta la imagen para que se adapte al contenedor reducido */
-    }
-    .header-overlay h1 {
-        font-size: 1.5rem;
-    }
-    .header-overlay p {
-        font-size: 0.9rem;
-    }
-
-    /* Cards */
-
-    .contenedorCards {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 10px;
-    }
-    .cardI {
-        width: 100%; /* Asegura que las tarjetas ocupen el ancho completo del contenedor */
-        max-width: 300px; /* Define un ancho máximo para las tarjetas */
-        margin: 10px 0; /* Reduce los márgenes verticales */
-    }
-    .cardI img {
-        width: 30%; /* Ajusta el tamaño de la imagen dentro de la tarjeta */
-    }
-    .infoC {
-        font-size: 0.9rem; /* Reduce el tamaño del texto dentro de las tarjetas */
-    }
-
-    /* Quiénes Somos */
-    .text-side {
-        padding: 0;
-        text-align: center;
-    }
-    .image-side img {
-        width: 100%; /* Ajusta la imagen para que ocupe todo el ancho del contenedor */
-    }
-
-    /* Mapa */
-    .map {
-        height: 200px; /* Ajusta la altura del mapa para pantallas más pequeñas */
-    }
-
-    /* Footer */
-    .footer {
-        padding: 20px;
-        font-size: 0.9rem;
-    }
-    .contact-info {
-        text-align: center;
-    }
-}
+/* Celulares */
