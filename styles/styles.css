@@ -50,7 +50,6 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-
     
 }
 
@@ -398,7 +397,7 @@ tengo que seguir buscando formas de solucionarlo*/
     }
     .cardI {
         width: 80%;
-        max-width: 350px;
+        max-width: 200px;
         margin: 15px 0;
     }
     .cardI img {
@@ -431,3 +430,5 @@ tengo que seguir buscando formas de solucionarlo*/
 
 
 /* Celulares */
+
+  
