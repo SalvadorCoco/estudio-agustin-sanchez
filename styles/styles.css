@@ -41,7 +41,14 @@ body {
 .titulo {
     text-align: center;
     font-family: Fjalla One;
-    margin-top: 2%;
+    margin-top: 5%;
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: Fjalla One;
+    font-size: large;
+    font-weight: 100;
 }
 
 .contenedorCards{
@@ -387,8 +394,8 @@ tengo que seguir buscando formas de solucionarlo*/
 
     /* Header */
     .header-overlay {
-        width: 100%;
-        
+        width: 80%;
+
     }
     .header-overlay h1 {
         font-size: 1.6rem; /* Reducir el tamaño de la fuente */
