@@ -370,6 +370,8 @@ body {
 tengo que seguir buscando formas de solucionarlo*/
 
 @media (max-width: 768px) {
+    /* Header*/
+    
     /* Navbar */
     .navbar {
         padding: 16px;
@@ -384,11 +386,17 @@ tengo que seguir buscando formas de solucionarlo*/
     }
 
     /* Header */
+    .header-overlay {
+        width: 100%;
+        
+    }
     .header-overlay h1 {
-        font-size: 1.75rem;
+        font-size: 1.6rem; /* Reducir el tamaño de la fuente */
+        text-align: center; /* Centrar el texto */
+        line-height: 1.3; /* Ajustar espacio entre líneas */
     }
     .header-overlay p {
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
    
     /* Cards */
