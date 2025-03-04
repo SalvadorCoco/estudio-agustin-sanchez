@@ -1,27 +1,26 @@
 .float{
     position: fixed;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #25d366;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
     color: #fff;
     border-radius: 50%;
     text-align: center;
     z-index: 999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .fa-whatsapp{
-    font-size: 30px; 
+    font-size: 60px; 
 }
 
 .float:hover {
     background-color: #32e975;
     transform: translateY(-5px); 
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6); 
+
+
 }
 
 body {
@@ -51,10 +50,12 @@ body {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+
+
 }
 
 .cardI {
-    width: 270px;
+    width: 300px;
     border: 3px solid  #EDEBD4;
     border-radius: 3%;
     padding: 30px;
@@ -64,51 +65,59 @@ body {
     text-decoration: none; /* Elimina la decoración del enlace */
     color: inherit; /* Mantiene el color del texto */
     display: block; /* Asegura que el enlace cubra toda la card */
-}
+  }
 
-.cardI:hover {
+  .cardI:hover {
     transform: translateY(-5px); 
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.6); 
-}
+  }
 
-.cardI img {
-    width: 20%;
-    border-radius: 5%;
-}
+
+  .cardI img {width: 20%;
+    border-radius: 5%;}
 
 .infoC {
     font-family: Montserrat;
     text-align: left;
 }
 
+
 /* fin de las cards */
 
 .insta:hover{
     transform: translateY(-5px); 
     border: 3px solid  #D23280
-}
 
+
+}
 .insta:hover h2 {
     color:  #D23280;
 }
 
+
+
 .face:hover{
     transform: translateY(-5px); 
     border: 3px solid #3b5998 
-}
 
+
+}
 .face:hover h2 {
     color: #3b5998 
 }
 
+
+
 .link:hover{
     transform: translateY(-5px); 
     border: 3px solid  #007bb6;
-}
 
+}
 .link:hover h2 {
     color:  #007bb6;
 }
+
+
 
 /* fin de las cards */
 
@@ -122,12 +131,10 @@ body {
     align-items: center;
     font-size: 30px;
 }
-
 .navbar img {
     width: 60px;
     height: 60px;
 }
-
 .navbar-logo {
     width: 40px;
     height: 40px;
@@ -147,80 +154,83 @@ body {
     font-family: Fjalla One;
 }
 
+
+
 /* Header */
 
+
+
+
 .containerH {
-    max-width: 100%;
-    min-height: 40vh; /* Cambiado a min-height para mejor responsividad */
-    position: relative;
+    max-width: 100%; /* Ajustar el ancho máximo del contenedor */
+    height: 40vh; /* Altura reducida del contenedor */
+    position: relative; /* Posicionar los elementos hijos */
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden; /* Evita desbordamientos */
+    justify-content: center; /* Centrar contenido horizontal y verticalmente */
 }
 
 .header-image {
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow: hidden; /* Asegura que la imagen cubra el contenedor */
 }
 
 .header-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    filter: brightness(30%);
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin distorsión */
+    filter: brightness(30%); /* Oscurece la imagen de fondo */
 }
 
 .header-overlay {
-    position: relative; /* Cambiado de absolute para mejor comportamiento */
-    z-index: 1; /* Asegura que esté por encima de la imagen */
-    text-align: center;
-    color: #fff;
-    padding: 15px;
-    width: 90%;
-    max-width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el contenido sobre la imagen */
+    text-align: center; /* Centra el texto */
+    color: #fff; /* Color del texto brillante sobre la imagen */
+    padding: 20px;
 }
 
 .header-overlay h1 {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
 .header-overlay p {
-    font-size: clamp(0.9rem, 3vw, 1.2rem);
-    margin-bottom: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 
 .header-overlay .btn {
     background-color: #DFDD90;
     color: black;
-    padding: 8px 20px;
+    padding: 10px 30px;
     text-transform: uppercase;
     border-radius: 5px;
     text-decoration: none;
-    font-size: clamp(0.8rem, 2vw, 1rem);
-    display: inline-block;
-    white-space: nowrap;
-    margin: 0 auto;
-    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1rem; /* Ajuste del tamaño del texto del botón */
 }
 
-.header-overlay .btn:hover {
-    background-color: #c9c77d;
-    transform: translateY(-2px);
-}
 
 /* aca termina el header */
 
+
+
+
 /* Sección QUIEN SOY */
+
+
+
 
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
+
 }
 
 .containerQS {
@@ -281,9 +291,13 @@ body {
     margin-top: 20px;
 }
 
+
+
 /* FIN QUIEN SOY */
 
+
 /* Servicios */
+
 
 .services {
     padding: 40px 0;
@@ -317,26 +331,26 @@ body {
 
 /* Footer */
 
+
+
 .footer {
     background-color: #333;
     color: #fff;
     text-align: justify;
 }
-
 .contact-info {
     text-align: center;
-}
 
+}
 .containerF {
     padding: 10px;
     text-align: justify;
 }
-
 .containerF a{
     text-decoration: none;
     color:  #DFDD90;
-}
 
+}
 /* Mapa */
 .map {
     width: 100%;
@@ -344,101 +358,121 @@ body {
     background-color: #e9ecef;
 }
 
+
+
 /* Media Queries */
 
-/* Media query para tablets y dispositivos móviles */
+
+@media (max-width: 1088px) {
+
+/* tablets */
+/* No se como hacer para cambiar esta parte del codigo, por alguna razon si la borro el otro media query no funciona 
+tengo que seguir buscando formas de solucionarlo*/
+
 @media (max-width: 768px) {
-    /* Específicamente revertir solo para las cards de redes sociales */
-    .contenedorCards:has(.cardI.insta, .cardI.face, .cardI.link) {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    /* Restaurar los estilos originales para otros contenedores */
-    .contenedorCards:not(:has(.cardI.insta, .cardI.face, .cardI.link)) {
-        flex-direction: column;
-    }
-    
-    /* Estilos específicos para cards de redes sociales */
-    article.contenedorCards .cardI.insta, 
-    article.contenedorCards .cardI.face, 
-    article.contenedorCards .cardI.link {
-        width: 120px !important;
-        height: auto !important;
-        padding: 15px !important;
-        margin: 10px !important;
-        flex: 0 0 auto !important;
-    }
-    
-    article.contenedorCards .cardI.insta img, 
-    article.contenedorCards .cardI.face img, 
-    article.contenedorCards .cardI.link img {
-        width: 30px !important;
-        height: 30px !important;
-    }
-    
-    article.contenedorCards .cardI.insta h2, 
-    article.contenedorCards .cardI.face h2, 
-    article.contenedorCards .cardI.link h2 {
-        font-size: 14px !important;
-        margin: 8px 0 0 0 !important;
-    }
-    
-    /* Mantener el navbar como estaba originalmente */
+    /* Navbar */
     .navbar {
         padding: 16px;
         font-size: 16px;
     }
-    
+    .navbar img {
+        width: 35px;
+        height: 35px;
+    }
     .navbar-brand {
         font-size: 14px;
     }
-}
 
-/* Para móviles más pequeños */
-@media (max-width: 480px) {
-    .containerH {
-        min-height: 50vh; /* Asegura suficiente espacio */
-    }
-    
-    .header-overlay {
-        padding: 10px;
-        width: 95%;
-    }
-    
+    /* Header */
     .header-overlay h1 {
-        font-size: 1.5rem;
-        margin-bottom: 8px;
+        font-size: 1.75rem;
     }
-    
     .header-overlay p {
-        font-size: 0.9rem;
-        margin-bottom: 15px;
+        font-size: 0.95rem;
     }
-    
-    .header-overlay .btn {
-        padding: 6px 15px;
-        font-size: 0.8rem;
+   
+    /* Cards */
+   
+    .contenedorCards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
     }
-    
-    article.contenedorCards .cardI.insta, 
-    article.contenedorCards .cardI.face, 
-    article.contenedorCards .cardI.link {
-        width: 90px !important;
-        padding: 10px !important;
-        margin: 5px !important;
+
+    /* Aplicar el mismo estilo para las cards de redes sociales */
+    .contenedorCards:has(.cardI.insta, .cardI.face, .cardI.link) {
+        grid-template-columns: repeat(3, 1fr);
     }
-    
-    .float {
-        width: 45px;
-        height: 45px;
-        bottom: 15px;
-        right: 15px;
+
+    .cardI {
+        width: auto;
+        height: 120px;
+        padding: 15px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 2px solid #EDEBD4;
+        border-radius: 10px;
+        transition: all 0.3s ease;
     }
-    
-    .fa-whatsapp {
-        font-size: 25px;
+
+    /* Estilos específicos para cards de redes sociales */
+    .cardI.insta, 
+    .cardI.face, 
+    .cardI.link {
+        height: 100px;
+    }
+
+
+    .cardI .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .cardI img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .cardI h2 {
+        font-size: 16px;
+        margin: 0;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    .cardI p.infoC {
+        display: none;
+        font-size: 0;
+        margin: 0;
+    }
+}
+    /* Quiénes Somos */
+    .text-side {
+        padding: 10px;
+        text-align: center;
+    }
+    .image-side img {
+        width: 100%;
+    }
+
+    /* Mapa */
+    .map {
+        height: 250px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 25px;
+        font-size: 0.95rem;
     }
 }
