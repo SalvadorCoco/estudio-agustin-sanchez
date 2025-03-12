@@ -24,7 +24,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     background-color: #f8f9fa;
    /* background: linear-gradient(to bottom, #DFDD90, #FFFFFF); fondo con gradiente para probar */
     margin: 0;
@@ -33,20 +33,20 @@ body {
 }
 
 .header-overlay {
-    font-family: Fjalla One;
+    font-family: "Nunito Sans", sans-serif;
 }
 /* Estilo para las cards */
 
-
 .titulo {
     text-align: center;
-    font-family: Fjalla One;
-    margin-top: 5%;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 2%;
+    font-size: 1.9rem;
 }
 
 .subtitulo {
     text-align: center;
-    font-family: Fjalla One;
+    font-family: "Nunito Sans", sans-serif;
     font-size: large;
     font-weight: 100;
 }
@@ -158,7 +158,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-family: Fjalla One;
+    font-family: Fjalla One, sans-serif;
 }
 
 
@@ -378,7 +378,12 @@ tengo que seguir buscando formas de solucionarlo*/
 
 @media (max-width: 768px) {
     /* Header*/
-    
+    .titulo {
+        text-align: center;
+        font-family: "Nunito Sans", sans-serif;
+        margin-top: 5%;
+        font-size: 1.6rem;
+    }
     /* Navbar */
     .navbar {
         padding: 16px;
@@ -471,6 +476,7 @@ tengo que seguir buscando formas de solucionarlo*/
         margin: 0;
     }
 }
+}
     /* Quiénes Somos */
     .text-side {
         padding: 10px;
@@ -487,7 +493,12 @@ tengo que seguir buscando formas de solucionarlo*/
 
     /* Footer */
     .footer {
-        padding: 25px;
         font-size: 0.95rem;
     }
-}
+    .footerP {
+        font-size: 0.8rem;
+        justify-content: start;
+        ;
+    
+    }
+
