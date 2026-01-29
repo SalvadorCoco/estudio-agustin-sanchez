@@ -1,0 +1,38 @@
+@import "tailwindcss/theme" layer(theme);
+@import "tailwindcss/preflight" layer(base);
+@import "tailwindcss/utilities" layer(utilities);
+
+/* Tema personalizado - colores dorados */
+@layer theme {
+  :root {
+    --color-gold: #C4B454;
+    --color-gold-dark: #B3A34D;
+  }
+}
+
+/* Estilos base */
+@layer base {
+  body {
+    background-color: white;
+    color: rgb(17 24 39);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+  }
+}
+
+/* Utilidades personalizadas */
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .gold-gradient {
+    background: linear-gradient(135deg, #C4B454 0%, #B3A34D 100%);
+  }
+  
+  .text-shadow-sm {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
