@@ -1,0 +1,64 @@
+import { Scale, Facebook, Instagram, Linkedin } from "lucide-react";
+
+export function Footer() {
+  return (
+    <footer className="bg-gray-900 text-white py-12 px-4">
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid md:grid-cols-4 gap-8 mb-8">
+          <div className="md:col-span-2">
+            <div className="flex items-center gap-2 mb-4">
+              <Scale className="w-8 h-8 text-[#C4B454]" />
+              <div>
+                <div className="tracking-tight">Estudio Jurídico Sanchez</div>
+                <div className="text-xs text-gray-400">Abogados & Asesores</div>
+              </div>
+            </div>
+            <p className="text-gray-400 mb-4">
+              Comprometidos con la excelencia legal y la defensa de tus derechos en Río Cuarto, Córdoba. 
+              Más de 20 años de experiencia y resultados comprobados.
+            </p>
+            <div className="flex gap-3">
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="mb-4">Enlaces Rápidos</h3>
+            <ul className="space-y-2 text-gray-400">
+              <li><a href="#servicios" className="hover:text-white transition-colors">Servicios</a></li>
+              <li><a href="#casos" className="hover:text-white transition-colors">Testimonios</a></li>
+              <li><a href="#sobre" className="hover:text-white transition-colors">Sobre Nosotros</a></li>
+              <li><a href="#contacto" className="hover:text-white transition-colors">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="mb-4">Áreas de Práctica</h3>
+            <ul className="space-y-2 text-gray-400">
+              <li>Derecho Civil</li>
+              <li>Derecho Comercial</li>
+              <li>Derecho Laboral</li>
+              <li>Derecho Penal</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
+          <p>© 2025 Estudio Jurídico Sanchez. Todos los derechos reservados.</p>
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-white transition-colors">Términos y Condiciones</a>
+            <a href="#" className="hover:text-white transition-colors">Política de Privacidad</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
