@@ -1,69 +1,39 @@
 import { useState } from "react";
-import { GraduationCap, Award, Users, Target, ChevronLeft, ChevronRight, FileText, MapPin } from "lucide-react";
+import { ChevronLeft, ChevronRight, FileText, MapPin } from "lucide-react";
 
 const lawyers = [
   {
-    name: "Dr. Agustín Sánchez",
-    role: "Socio Fundador",
+    name: "Abog. Agustín Sánchez",
     location: "Río Cuarto, Córdoba",
     photo: "/agustin sanchez abogado rio cuarto estudio juridico.png",
     description:
-      "Con más de 20 años de trayectoria en el ejercicio del derecho, el Dr. Agustín Sánchez ha construido una sólida reputación basada en la excelencia, la ética profesional y el compromiso con sus clientes en Río Cuarto, Córdoba.",
+      "Abogado egresado en la Universidad Nacional de Río Cuarto",
     detail:
-      "Nuestro estudio se caracteriza por un enfoque personalizado, donde cada caso recibe la atención y dedicación que merece. Creemos en la importancia de entender las necesidades únicas de cada cliente para ofrecer soluciones legales efectivas.",
-    badges: ["Matriculado desde 2004", "Colegio de Abogados"],
+      "Diplomado en Compliance, Ética Corporativa y Dirección de Procesos de Integridad (en curso). Avocado a los Amparos de Salud, además de otras ramas del derecho.",
+    badges: ["M.P 2-1806", "M.F T° 509 F° 846"],
     cvAction: true,
   },
   {
-    name: "Dr. Gustavo Sánchez",
-    role: "Socio",
-    location: "San Basilio, Córdoba",
-    photo: "/gustavo sanchez abogado san basilio estudio juridico.png",
-    description:
-      "El Dr. Gustavo Sánchez aporta al estudio una sólida formación en derecho civil y penal, con especial dedicación a los casos de la región de San Basilio y alrededores.",
-    detail:
-      "Su cercanía con los clientes y su profundo conocimiento del territorio cordobés le permiten ofrecer asesoramiento legal adaptado a cada realidad local, con resultados concretos y efectivos.",
-    badges: ["Derecho Civil", "Derecho Penal"],
-    cvAction: false,
-  },
-  {
-    name: "Dra. Sofía Lanzelotta",
-    role: "Asociada",
+    name: "Abog. Sofía Lanzelotta",
     location: "Río Cuarto, Córdoba",
     photo: "/sofia lanzelotta abogada rio cuarto estudio juridico.png",
     description:
-      "La Dra. Sofía Lanzelotta se especializa en derecho de familia y sucesiones, aportando una perspectiva fresca y rigurosa en cada caso que representa.",
+      "Abogada egresada en la Universidad Nacional de Río Cuarto",
     detail:
-      "Comprometida con la defensa de los derechos de sus clientes, combina la solidez jurídica con un trato humano y empático que distingue al Estudio Jurídico Sánchez.",
-    badges: ["Derecho de Familia", "Sucesiones"],
+      "Gestora del Automotor y de Créditos Prendarios. Avocada al Derecho Penal, además de otras ramas del derecho.",
+    badges: ["M.P 2-2319", "M.F T° 511 F° 840"],
     cvAction: false,
   },
-];
-
-const credentials = [
   {
-    icon: GraduationCap,
-    title: "Formación Académica",
+    name: "Abog. Gustavo Sánchez",
+    location: "San Basilio, Córdoba",
+    photo: "/gustavo sanchez abogado san basilio estudio juridico.png",
     description:
-      "Abogados egresados de las principales universidades del país. Especializaciones en múltiples ramas del derecho.",
-  },
-  {
-    icon: Award,
-    title: "Reconocimientos",
-    description:
-      "Múltiples distinciones por excelencia profesional y contribución al desarrollo jurídico regional.",
-  },
-  {
-    icon: Users,
-    title: "Equipo Especializado",
-    description:
-      "Equipo multidisciplinario de profesionales comprometidos con cada caso.",
-  },
-  {
-    icon: Target,
-    title: "Resultados Comprobados",
-    description:
-      "98% de casos resueltos favorablemente para nuestros clientes.",
+      "Abogado egresado en la Universidad Empresarial Siglo XXI",
+    detail:
+      "Corredor Inmobiliario y Perito Tasador. Avocado al Derecho Inmobiliario, además de otras ramas del derecho.",
+    badges: ["M.P 2-2261", "C.P.I 045993"],
+    cvAction: false,
   },
 ];
 
@@ -103,8 +73,7 @@ export function About() {
               <MapPin className="w-4 h-4" />
               {lawyer.location}
             </div>
-            <h2 className="mb-1 text-gray-900 text-3xl font-bold">{lawyer.name}</h2>
-            <p className="text-[#C4B454] font-semibold mb-4 text-sm uppercase tracking-wide">{lawyer.role}</p>
+            <h2 className="mb-4 text-gray-900 text-3xl font-bold">{lawyer.name}</h2>
             <p className="text-gray-600 mb-4 text-base leading-relaxed">{lawyer.description}</p>
             <p className="text-gray-500 mb-6 text-sm leading-relaxed">{lawyer.detail}</p>
 
@@ -135,9 +104,8 @@ export function About() {
                   <button
                     key={i}
                     onClick={() => setCurrent(i)}
-                    className={`w-2.5 h-2.5 rounded-full transition-colors ${
-                      i === current ? "bg-[#C4B454]" : "bg-gray-300 hover:bg-gray-400"
-                    }`}
+                    className={`w-2.5 h-2.5 rounded-full transition-colors ${i === current ? "bg-[#C4B454]" : "bg-gray-300 hover:bg-gray-400"
+                      }`}
                     aria-label={`Ver abogado ${i + 1}`}
                   />
                 ))}
@@ -180,33 +148,34 @@ export function About() {
           </div>
         </div>
 
-        {/* Credentials */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
-          {credentials.map((credential, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg border border-gray-200">
-              <div className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center mb-4">
-                <credential.icon className="w-5 h-5 text-gray-900" />
-              </div>
-              <h3 className="mb-2 text-gray-900">{credential.title}</h3>
-              <p className="text-sm text-gray-600">{credential.description}</p>
-            </div>
-          ))}
-        </div>
-
         {/* Office */}
         <div className="mt-12 bg-white p-8 rounded-lg border border-gray-200">
-          <div className="max-w-3xl mx-auto text-center">
-            <h3 className="mb-4 text-gray-900">Nuestra Oficina</h3>
-            <p className="text-gray-600 mb-6">
-              Ubicados en el corazón de Río Cuarto, Córdoba, nuestro estudio cuenta con instalaciones
-              modernas y espacios diseñados para brindar privacidad y comodidad durante las consultas.
+          <div className="max-w-4xl mx-auto text-center">
+            <h3 className="mb-4 text-gray-900">Nuestras oficinas</h3>
+            <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+              Ubicados en la ciudad de Río Cuarto y en la localidad de San Basilio. Espacios diseñados para brindar privacidad y confianza durante las consultas.
             </p>
-            <div className="aspect-video rounded-lg overflow-hidden bg-gray-100">
-              <img
-                src="https://images.unsplash.com/photo-1714150458873-715e134901a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsYXclMjBvZmZpY2V8ZW58MXx8fHwxNzYyNzI0OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="Oficina del Estudio Jurídico"
-                className="w-full h-full object-cover"
-              />
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="flex flex-col gap-2">
+                <div className="aspect-video rounded-lg overflow-hidden bg-gray-100">
+                  <img
+                    src="/ofirioiv.jpeg"
+                    alt="Oficina Río Cuarto"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <p className="text-gray-900 font-medium">Río Cuarto, Córdoba</p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <div className="aspect-video rounded-lg overflow-hidden bg-gray-100">
+                  <img
+                    src="/sanbasilio.jpeg"
+                    alt="Oficina San Basilio"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <p className="text-gray-900 font-medium">San Basilio, Córdoba</p>
+              </div>
             </div>
           </div>
         </div>

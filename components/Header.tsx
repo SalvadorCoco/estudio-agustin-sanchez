@@ -14,31 +14,31 @@ export function Header() {
         <div className="flex items-center gap-2">
           <Scale className="w-8 h-8 text-[#C4B454]" />
           <div>
-            <div className="tracking-tight text-gray-900">Estudio Jurídico Sanchez</div>
-            <div className="text-xs text-gray-500">Abogados & Asesores</div>
+            <div className="tracking-tight text-gray-900">Estudio Jurídico Sanchez y Lanzelotta</div>
+            <div className="text-xs text-gray-500">Abogados a tu disposición</div>
           </div>
         </div>
-        
+
         <nav className="hidden md:flex items-center gap-8">
-          <button 
+          <button
             onClick={() => scrollToSection("servicios")}
             className="text-gray-600 hover:text-[#C4B454] transition-colors"
           >
             Servicios
           </button>
-          <button 
+          <button
             onClick={() => scrollToSection("casos")}
             className="text-gray-600 hover:text-[#C4B454] transition-colors"
           >
             Testimonios
           </button>
-          <button 
+          <button
             onClick={() => scrollToSection("sobre")}
             className="text-gray-600 hover:text-[#C4B454] transition-colors"
           >
             Sobre Nosotros
           </button>
-          <button 
+          <button
             onClick={() => scrollToSection("contacto")}
             className="px-6 py-2 bg-[#C4B454] hover:bg-[#B3A34D] text-gray-900 rounded-lg transition-colors"
           >

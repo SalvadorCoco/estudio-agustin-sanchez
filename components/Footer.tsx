@@ -1,4 +1,4 @@
-import { Scale, Facebook, Instagram, Linkedin } from "lucide-react";
+import { Scale, Facebook, Instagram } from "lucide-react";
 
 export function Footer() {
   return (
@@ -14,18 +14,15 @@ export function Footer() {
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              Comprometidos con la excelencia legal y la defensa de tus derechos en Río Cuarto, Córdoba. 
-              Más de 20 años de experiencia y resultados comprobados.
+              Comprometidos con la excelencia legal y la defensa de tus derechos en Río Cuarto, Córdoba.
+
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+              <a href="https://www.facebook.com/abogado.agustinsanchez" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+              <a href="https://www.instagram.com/abogado.agustinsanchez/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
-                <Linkedin className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -43,10 +40,12 @@ export function Footer() {
           <div>
             <h3 className="mb-4">Áreas de Práctica</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Derecho Civil</li>
-              <li>Derecho Comercial</li>
-              <li>Derecho Laboral</li>
-              <li>Derecho Penal</li>
+              <li>Amparos de Salud</li>
+              <li>Derecho civil y comercial</li>
+              <li>Derecho de familias</li>
+              <li>Derecho sucesorio</li>
+              <li>Derecho inmobiliario y reales</li>
+              <li>Derecho penal</li>
             </ul>
           </div>
         </div>
@@ -54,8 +53,7 @@ export function Footer() {
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
           <p>© 2025 Estudio Jurídico Sanchez. Todos los derechos reservados.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Términos y Condiciones</a>
-            <a href="#" className="hover:text-white transition-colors">Política de Privacidad</a>
+            <a href="mailto:salvadorcocosanchez@gmail.com" className="hover:text-white transition-colors">Web desarrollada por Salvador Sanchez</a>
           </div>
         </div>
       </div>

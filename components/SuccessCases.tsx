@@ -53,8 +53,8 @@ export function SuccessCases() {
     pageTestimonials.length === 1
       ? "grid-cols-1 max-w-sm mx-auto"
       : pageTestimonials.length === 2
-      ? "grid-cols-2"
-      : "grid-cols-3";
+        ? "grid-cols-2"
+        : "grid-cols-3";
 
   const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonials[0] }) => (
     <div className="bg-white border border-gray-200 rounded-lg p-6 flex flex-col h-full">
@@ -150,9 +150,8 @@ export function SuccessCases() {
               <button
                 key={i}
                 onClick={() => goToPage(i)}
-                className={`h-2 rounded-full transition-all ${
-                  i === currentPage ? "bg-[#C4B454] w-6" : "bg-gray-300 w-2"
-                }`}
+                className={`h-2 rounded-full transition-all ${i === currentPage ? "bg-[#C4B454] w-6" : "bg-gray-300 w-2"
+                  }`}
                 aria-label={`Página ${i + 1}`}
               />
             ))}
@@ -160,20 +159,7 @@ export function SuccessCases() {
         )}
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-8 text-center">
-          <div>
-            <div className="text-4xl text-gray-900 mb-2">98%</div>
-            <div className="text-gray-600">Casos exitosos</div>
-          </div>
-          <div>
-            <div className="text-4xl text-gray-900 mb-2">500+</div>
-            <div className="text-gray-600">Clientes satisfechos</div>
-          </div>
-          <div>
-            <div className="text-4xl text-gray-900 mb-2">20+</div>
-            <div className="text-gray-600">Años de experiencia</div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

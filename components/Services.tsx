@@ -1,35 +1,35 @@
-import { Building2, Users, FileText, Briefcase, Home, ShieldCheck } from "lucide-react";
+import { Building2, Users, FileText, Home, HeartPulse, Scale } from "lucide-react";
 
 const services = [
   {
-    icon: Building2,
-    title: "Derecho Civil",
-    description: "Contratos, obligaciones y derecho de familia. Asesoramiento integral en todas tus necesidades civiles."
+    icon: HeartPulse,
+    title: "Amparos de Salud",
+    description: "Brindamos asesoramiento frente a obras sociales y prepagas, para garantizar cobertura de medicamentos, tratamientos y otras prestaciones"
   },
   {
-    icon: Briefcase,
-    title: "Derecho Comercial",
-    description: "Constitución de sociedades, fusiones y adquisiciones. Protegemos tu negocio."
+    icon: Building2,
+    title: "Derecho civil y comercial",
+    description: "Brindamos asesoramiento en contratos, responsabilidad civil en accidentes de transito y reclamos contra seguros, limitaciones de capacidad, reclamos de defensa del consumidor y más."
   },
   {
     icon: Users,
-    title: "Derecho Laboral",
-    description: "Defensa de derechos laborales, despidos y negociaciones colectivas."
-  },
-  {
-    icon: Home,
-    title: "Derecho Inmobiliario",
-    description: "Compraventa, alquileres y reclamos de propiedades. Tu patrimonio en buenas manos."
+    title: "Derecho de familias",
+    description: "Brindamos asesoramiento en temas de cuota alimentaria, divorcio, adopciones, reconocimientos, filiación, entre otros."
   },
   {
     icon: FileText,
-    title: "Derecho Sucesorio",
-    description: "Testamentos, herencias y división de bienes. Planifica el futuro de tu familia."
+    title: "Derecho sucesorio",
+    description: "Brindamos asesoramiento en declaratoria de herederos, adjudicaciones, tractos abreviados y más."
   },
   {
-    icon: ShieldCheck,
-    title: "Derecho Penal",
-    description: "Defensa penal en todas las instancias. Protegemos tus derechos fundamentales."
+    icon: Home,
+    title: "Derecho inmobiliario y reales",
+    description: "Brindamos asesoramiento en usucapiones, alquileres, compraventas y más."
+  },
+  {
+    icon: Scale,
+    title: "Derecho penal",
+    description: "A cargo de la Dra. Lanzelotta, brinda asesoramiento para defensas penales en todas las instancias."
   }
 ];
 
@@ -45,7 +45,7 @@ export function Services() {
             Áreas de Práctica
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Ofrecemos servicios legales especializados en diversas áreas del derecho, 
+            Ofrecemos servicios legales especializados en diversas áreas del derecho,
             adaptados a tus necesidades específicas.
           </p>
         </div>
