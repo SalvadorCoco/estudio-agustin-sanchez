@@ -87,9 +87,9 @@ export function SuccessCases() {
   );
 
   return (
-    <section id="casos" className="py-20 px-4 bg-gray-50">
+    <section id="casos" className="py-12 px-4 bg-gray-50">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <div className="inline-block px-4 py-2 bg-white rounded-full mb-4 text-sm text-gray-700 border border-gray-200">
             Testimonios
           </div>
@@ -101,7 +101,7 @@ export function SuccessCases() {
 
         {/* Loading */}
         {loading && (
-          <div className="flex justify-center items-center py-16">
+          <div className="flex justify-center items-center py-10">
             <div className="w-8 h-8 border-2 border-[#C4B454] border-t-transparent rounded-full animate-spin" />
           </div>
         )}
@@ -145,7 +145,7 @@ export function SuccessCases() {
 
         {/* Dots — uno por PÁGINA */}
         {!loading && canNavigate && (
-          <div className="flex justify-center gap-2 mb-16">
+          <div className="flex justify-center gap-2 mb-10">
             {Array.from({ length: totalPages }).map((_, i) => (
               <button
                 key={i}

@@ -1,4 +1,4 @@
-import { Scale, Facebook, Instagram } from "lucide-react";
+import { Scale, Facebook, Instagram, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
@@ -23,6 +23,9 @@ export function Footer() {
               </a>
               <a href="https://www.instagram.com/abogado.agustinsanchez/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
                 <Instagram className="w-5 h-5" />
+              </a>
+              <a href="https://www.linkedin.com/agustinsanchez95" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <Linkedin className="w-5 h-5" />
               </a>
             </div>
           </div>

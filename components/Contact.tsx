@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -9,14 +9,14 @@ export function Contact() {
     message: ""
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Aquí iría la lógica para enviar el formulario
     alert("Gracias por contactarnos. En breve nos comunicaremos contigo.");
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
@@ -24,9 +24,9 @@ export function Contact() {
   };
 
   return (
-    <section id="contacto" className="py-20 px-4">
+    <section id="contacto" className="py-12 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <div className="inline-block px-4 py-2 bg-gray-100 rounded-full mb-4 text-sm text-gray-700">
             Contacto
           </div>

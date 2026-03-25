@@ -26,7 +26,7 @@ const lawyers = [
   },
   {
     name: "Abog. Gustavo Sánchez",
-    location: "San Basilio, Córdoba",
+    location: "Río Cuarto, Córdoba",
     photo: "/gustavo sanchez abogado san basilio estudio juridico.png",
     description:
       "Abogado egresado en la Universidad Empresarial Siglo XXI",
@@ -50,7 +50,7 @@ export function About() {
   };
 
   return (
-    <section id="sobre" className="py-20 px-4 bg-gray-50">
+    <section id="sobre" className="py-12 px-4 bg-gray-50">
       <div className="container mx-auto max-w-6xl">
 
         {/* Header */}
@@ -135,15 +135,7 @@ export function About() {
                   className="w-full h-full object-cover object-top transition-opacity duration-300"
                 />
               </div>
-              {lawyer.cvAction && (
-                <button
-                  onClick={handleDownloadCV}
-                  className="w-full px-6 py-3 bg-[#C4B454] hover:bg-[#B3A34D] text-gray-900 rounded-lg transition-colors inline-flex items-center justify-center gap-2"
-                >
-                  <FileText className="w-4 h-4" />
-                  Ver Curriculum Vitae
-                </button>
-              )}
+
             </div>
           </div>
         </div>

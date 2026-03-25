@@ -13,7 +13,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1635845080335-dcfe06a0fcf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXclMjBvZmZpY2UlMjBpbnRlcmlvcnxlbnwxfHx8fDE3NjI3ODQ4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          src="/19.jpg"
           alt="Estudio Jurídico"
           className="w-full h-full object-cover"
         />
@@ -22,7 +22,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="container mx-auto max-w-6xl px-4 py-20 relative z-10">
+      <div className="container mx-auto max-w-6xl px-4 py-12 relative z-10">
         <div className="max-w-2xl">
           <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full mb-6 text-sm text-white">
             Más de 5 años de experiencia
@@ -39,7 +39,7 @@ export function Hero() {
               onClick={scrollToContact}
               className="px-6 py-3 bg-[#C4B454] text-gray-900 hover:bg-[#B3A34D] rounded-lg transition-colors inline-flex items-center gap-2"
             >
-              Consulta Gratuita
+              Hace tu Consulta
               <ArrowRight className="w-4 h-4" />
             </button>
             <button
