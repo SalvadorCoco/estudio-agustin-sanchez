@@ -12,7 +12,7 @@ export function Contact() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Aquí iría la lógica para enviar el formulario
-    alert("Gracias por contactarnos. En breve nos comunicaremos contigo.");
+    alert("Gracias por contactarnos. En breve nos comunicaremos con usted.");
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
@@ -84,7 +84,7 @@ export function Contact() {
                 <input
                   name="phone"
                   type="tel"
-                  placeholder="Teléfono"
+                  placeholder="Teléfono/WhatsApp"
                   value={formData.phone}
                   onChange={handleChange}
                   required

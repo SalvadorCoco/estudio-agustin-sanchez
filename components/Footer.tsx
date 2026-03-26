@@ -9,8 +9,9 @@ export function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <Scale className="w-8 h-8 text-[#C4B454]" />
               <div>
-                <div className="tracking-tight">Estudio Jurídico Sanchez</div>
-                <div className="text-xs text-gray-400">Abogados & Asesores</div>
+                <div className="tracking-tight">Estudio Jurídico Sanchez y Lanzelotta</div>
+                <div className="text-xs text-gray-400">Abogados a tu disposición
+                </div>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
@@ -24,7 +25,7 @@ export function Footer() {
               <a href="https://www.instagram.com/abogado.agustinsanchez/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://www.linkedin.com/agustinsanchez95" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+              <a href="https://www.linkedin.com/in/agustinsanchez95/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -54,7 +55,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-          <p>© 2025 Estudio Jurídico Sanchez. Todos los derechos reservados.</p>
+          <p>© 2026 Estudio Jurídico Sanchez y Lanzelotta. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             <a href="mailto:salvadorcocosanchez@gmail.com" className="hover:text-white transition-colors">Web desarrollada por Salvador Sanchez</a>
           </div>

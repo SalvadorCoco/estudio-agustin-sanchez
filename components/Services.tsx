@@ -4,12 +4,12 @@ const services = [
   {
     icon: HeartPulse,
     title: "Amparos de Salud",
-    description: "Brindamos asesoramiento frente a obras sociales y prepagas, para garantizar cobertura de medicamentos, tratamientos y otras prestaciones"
+    description: "Brindamos asesoramiento frente a obras sociales y prepagas."
   },
   {
     icon: Building2,
     title: "Derecho civil y comercial",
-    description: "Brindamos asesoramiento en contratos, responsabilidad civil en accidentes de transito y reclamos contra seguros, limitaciones de capacidad, reclamos de defensa del consumidor y más."
+    description: "Brindamos asesoramiento en contratos, responsabilidad civil, limitaciones de capacidad y más."
   },
   {
     icon: Users,

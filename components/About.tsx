@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight, FileText, MapPin } from "lucide-react";
 
 const lawyers = [
   {
-    name: "Abog. Agustín Sánchez",
+    name: "Abog. Agustín Sanchez",
     location: "Río Cuarto, Córdoba",
     photo: "/agustin sanchez abogado rio cuarto estudio juridico.png",
     description:
@@ -25,8 +25,8 @@ const lawyers = [
     cvAction: false,
   },
   {
-    name: "Abog. Gustavo Sánchez",
-    location: "Río Cuarto, Córdoba",
+    name: "Abog. Gustavo Sanchez",
+    location: "San Basilio, Córdoba",
     photo: "/gustavo sanchez abogado san basilio estudio juridico.png",
     description:
       "Abogado egresado en la Universidad Empresarial Siglo XXI",
