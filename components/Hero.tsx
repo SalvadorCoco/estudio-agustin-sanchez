@@ -1,13 +1,6 @@
 import { ArrowRight } from "lucide-react";
 
 export function Hero() {
-  const scrollToContact = () => {
-    const element = document.getElementById("contacto");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section className="relative pt-20 min-h-screen flex items-center">
       {/* Background Image */}
@@ -31,12 +24,18 @@ export function Hero() {
             Defendemos tus derechos con excelencia y compromiso
           </h1>
           <p className="text-white/90 mb-8 text-lg">
-            Somos un estudio jurídico especializado en brindar soluciones legales efectivas.
-            Nuestro compromiso es proteger tus intereses con profesionalismo y dedicación.
+            Somos un estudio jurídico especializado en brindar soluciones
+            legales efectivas. Nuestro compromiso es proteger tus intereses con
+            profesionalismo y dedicación.
           </p>
           <div className="flex flex-wrap gap-4">
             <button
-              onClick={scrollToContact}
+              onClick={() => {
+                const phoneNumber = "5493585134637";
+                const message = "Hola! Quería hacer una consulta legal:";
+                const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                window.open(url, "_blank");
+              }}
               className="px-6 py-3 bg-[#C4B454] text-gray-900 hover:bg-[#B3A34D] rounded-lg transition-colors inline-flex items-center gap-2"
             >
               Hace tu Consulta
@@ -65,7 +64,6 @@ export function Hero() {
               <div className="text-4xl text-white mb-1">98%</div>
               <div className="text-white/70">Tasa de éxito</div>
             </div>
-
           </div>
         </div>
       </div>
