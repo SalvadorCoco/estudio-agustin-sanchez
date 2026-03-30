@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronLeft, ChevronRight, FileText, MapPin } from "lucide-react";
+import { ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 
 const lawyers = [
   {
@@ -42,12 +42,6 @@ export function About() {
   const next = () => setCurrent((c) => (c + 1) % lawyers.length);
 
   const lawyer = lawyers[current];
-
-  const handleDownloadCV = () => {
-    alert(
-      "El CV se descargará próximamente. Por favor, contacta al estudio para más información.",
-    );
-  };
 
   return (
     <section id="sobre" className="py-12 px-4 bg-gray-50">
@@ -172,17 +166,18 @@ export function About() {
                   <p className="text-gray-600 text-sm mb-4">Alberdi N° 1365</p>
                   <div className="rounded-lg overflow-hidden border border-gray-200 h-48 mb-2">
                     <iframe
-                      src="https://maps.google.com/maps?q=-33.125866,-64.354145&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.038765182728!2d-64.35008722395062!3d-33.13104118122634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2014e69cb3ea3%3A0x5b6320cba22f841a!2sAlberdi%201365%2C%20X5800AHA%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e1!3m2!1ses!2sar!4v1774880809615!5m2!1ses!2sar"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
                       title="Mapa Río Cuarto"
                     ></iframe>
                   </div>
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Alberdi+1365+Rio+Cuarto+Cordoba"
+                    href="https://share.google/pzHDB9LInrnuTzFBa"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#C4B454] text-sm font-semibold hover:underline inline-flex items-center gap-1"
@@ -206,17 +201,18 @@ export function About() {
                   <p className="text-gray-600 text-sm mb-4">Saavedra N° 66</p>
                   <div className="rounded-lg overflow-hidden border border-gray-200 h-48 mb-2">
                     <iframe
-                      src="https://maps.google.com/maps?q=-33.49785,-64.31518&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.077686116856!2d-64.3149545!3d-33.4978615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ce21f9bb1739b3%3A0xefdd30b7f31be8d0!2sEstudio%20Jur%C3%ADdico%20e%20Inmobiliaria%20Sanchez!5e1!3m2!1ses!2sar!4v1774880978216!5m2!1ses!2sar"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
                       allowFullScreen
                       loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
                       title="Mapa San Basilio"
                     ></iframe>
                   </div>
                   <a
-                    href="https://www.google.com/maps/search/?api=1&query=Saavedra+66+San+Basilio+Cordoba"
+                    href="https://share.google/Uo0y7DzsOTg4CSJTS"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-[#C4B454] text-sm font-semibold hover:underline inline-flex items-center gap-1"
