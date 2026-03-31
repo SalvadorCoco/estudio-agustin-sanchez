@@ -41,7 +41,7 @@ const services = [
     icon: Scale,
     title: "Derecho Penal",
     description:
-      "A cargo de la Dra. Lanzelotta, brinda asesoramiento para defensas penales en todas las instancias.",
+      "A cargo de la Dra. Lanzelotta, brinda asesoramiento en defensas penales en todas las instancias.",
   },
 ];
 
