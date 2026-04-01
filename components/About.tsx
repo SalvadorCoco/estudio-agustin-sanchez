@@ -5,7 +5,7 @@ const lawyers = [
   {
     name: "Abog. Agustín Sanchez",
     location: "Río Cuarto, Córdoba",
-    photo: "/agustin sanchez abogado rio cuarto estudio juridico.png",
+    photo: "/agustin.webp",
     description: "Abogado egresado en la Universidad Nacional de Río Cuarto",
     detail:
       "Diplomado en Compliance, Ética Corporativa y Dirección de Procesos de Integridad (en curso). Avocado a los Amparos de Salud, además de otras ramas del derecho.",
@@ -15,7 +15,7 @@ const lawyers = [
   {
     name: "Abog. Sofía Lanzelotta",
     location: "Río Cuarto, Córdoba",
-    photo: "/sofia lanzelotta abogada rio cuarto estudio juridico.png",
+    photo: "/sofia.webp",
     description: "Abogada egresada en la Universidad Nacional de Río Cuarto",
     detail:
       "Gestora del Automotor y de Créditos Prendarios. Avocada al Derecho Penal, además de otras ramas del derecho.",
@@ -25,7 +25,7 @@ const lawyers = [
   {
     name: "Abog. Gustavo Sanchez",
     location: "San Basilio, Córdoba",
-    photo: "/gustavo sanchez abogado san basilio estudio juridico.png",
+    photo: "/gustavo.webp",
     description: "Abogado egresado en la Universidad Empresarial Siglo XXI",
     detail:
       "Corredor Inmobiliario y Perito Tasador. Avocado al Derecho Inmobiliario, además de otras ramas del derecho.",
@@ -154,9 +154,10 @@ export function About() {
               <div className="flex flex-col gap-4">
                 <div className="aspect-video rounded-lg overflow-hidden bg-gray-100 shadow-sm">
                   <img
-                    src="/ofirioiv.jpeg"
+                    src="/oficina-rio4.webp"
                     alt="Oficina Río Cuarto"
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div className="text-left">
@@ -189,9 +190,10 @@ export function About() {
               <div className="flex flex-col gap-4">
                 <div className="aspect-video rounded-lg overflow-hidden bg-gray-100 shadow-sm">
                   <img
-                    src="/sanbasilio.jpeg"
+                    src="/oficina-sanbasilio.webp"
                     alt="Oficina San Basilio"
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div className="text-left">

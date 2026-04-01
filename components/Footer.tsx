@@ -8,7 +8,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="/logo balanza para membrete.png"
+                src="/logo.webp"
                 alt="Logo Estudio Jurídico"
                 className="w-12 h-12 object-contain"
               />

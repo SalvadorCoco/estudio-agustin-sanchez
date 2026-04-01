@@ -11,7 +11,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <img
-            src="/logo balanza para membrete.png"
+            src="/logo .webp"
             alt="Logo Estudio Jurídico"
             className="w-12 h-12 object-contain"
           />
