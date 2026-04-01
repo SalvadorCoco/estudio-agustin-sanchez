@@ -179,7 +179,11 @@ export function About() {
                   </div>
                   <a
                     href="https://share.google/pzHDB9LInrnuTzFBa"
-                    target="_blank"
+                    target={
+                      typeof window !== "undefined" && window.innerWidth <= 768
+                        ? "_self"
+                        : "_blank"
+                    }
                     rel="noopener noreferrer"
                     className="text-[#C4B454] text-sm font-semibold hover:underline inline-flex items-center gap-1"
                   >
@@ -215,7 +219,11 @@ export function About() {
                   </div>
                   <a
                     href="https://share.google/Uo0y7DzsOTg4CSJTS"
-                    target="_blank"
+                    target={
+                      typeof window !== "undefined" && window.innerWidth <= 768
+                        ? "_self"
+                        : "_blank"
+                    }
                     rel="noopener noreferrer"
                     className="text-[#C4B454] text-sm font-semibold hover:underline inline-flex items-center gap-1"
                   >

@@ -28,7 +28,11 @@ export function Footer() {
             <div className="flex gap-3">
               <a
                 href="https://www.facebook.com/abogado.agustinsanchez"
-                target="_blank"
+                target={
+                  typeof window !== "undefined" && window.innerWidth <= 768
+                    ? "_self"
+                    : "_blank"
+                }
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
               >
@@ -36,7 +40,11 @@ export function Footer() {
               </a>
               <a
                 href="https://www.instagram.com/abogado.agustinsanchez/"
-                target="_blank"
+                target={
+                  typeof window !== "undefined" && window.innerWidth <= 768
+                    ? "_self"
+                    : "_blank"
+                }
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
               >
@@ -44,7 +52,11 @@ export function Footer() {
               </a>
               <a
                 href="https://www.linkedin.com/in/agustinsanchez95/"
-                target="_blank"
+                target={
+                  typeof window !== "undefined" && window.innerWidth <= 768
+                    ? "_self"
+                    : "_blank"
+                }
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
               >

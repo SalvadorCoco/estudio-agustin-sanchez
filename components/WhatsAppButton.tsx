@@ -4,7 +4,12 @@ export function WhatsAppButton() {
 
   const handleClick = () => {
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
+    window.open(
+      url,
+      typeof window !== "undefined" && window.innerWidth <= 768
+        ? "_self"
+        : "_blank",
+    );
   };
 
   return (

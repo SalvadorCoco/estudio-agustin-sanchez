@@ -5,7 +5,12 @@ export function Contact() {
     const phoneNumber = "5493585134637";
     const message = "Hola! Quería hacer una consulta legal:";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
+    window.open(
+      url,
+      typeof window !== "undefined" && window.innerWidth <= 768
+        ? "_self"
+        : "_blank",
+    );
   };
 
   return (
