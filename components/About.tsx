@@ -167,7 +167,7 @@ export function About() {
                   <p className="text-gray-600 text-sm mb-4">Alberdi N° 1365</p>
                   <div className="rounded-lg overflow-hidden border border-gray-200 h-48 mb-2">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.038765182728!2d-64.35008722395062!3d-33.13104118122634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2014e69cb3ea3%3A0x5b6320cba22f841a!2sAlberdi%201365%2C%20X5800AHA%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e1!3m2!1ses!2sar!4v1774880809615!5m2!1ses!2sar"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4206.909021504393!2d-64.35238321082232!3d-33.13104111293191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d201f82986af37%3A0xb0859532f3e73d56!2sEstudio%20Jur%C3%ADdico%20Sanchez%20y%20Lanzelotta!5e1!3m2!1ses!2sar!4v1775484089748!5m2!1ses!2sar"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
