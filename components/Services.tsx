@@ -21,9 +21,9 @@ const services = [
   },
   {
     icon: Users,
-    title: "Derecho de Familias",
+    title: "Riesgo de Trabajo",
     description:
-      "Brindamos asesoramiento en temas de cuota alimentaria, divorcio, adopciones, reconocimientos, filiación, entre otros.",
+      "Brindamos asesoramiento frente a ART por enfermedades o accidentes laborales.",
   },
   {
     icon: FileText,

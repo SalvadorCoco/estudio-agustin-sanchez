@@ -1,7 +1,9 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { trackEvent } from "./analytics";
 
 export function Contact() {
   const handleClickWhatsApp = () => {
+    trackEvent("click", "CTA", "contact_whatsapp");
     const phoneNumber = "5493585134637";
     const message = "Hola! Quería hacer una consulta legal:";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

@@ -1,8 +1,11 @@
+import { trackEvent } from "./analytics";
+
 export function WhatsAppButton() {
-  const phoneNumber = "5493585134637"; // Número de WhatsApp sin espacios ni símbolos
+  const phoneNumber = "5493585134637";
   const message = "Hola! Quería hacer una consulta legal:";
 
   const handleClick = () => {
+    trackEvent("click", "CTA", "floating_whatsapp");
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(
       url,

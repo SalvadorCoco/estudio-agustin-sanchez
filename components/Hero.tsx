@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { trackEvent } from "./analytics";
 
 export function Hero() {
   return (
@@ -32,6 +33,7 @@ export function Hero() {
           <div className="flex flex-wrap gap-4">
             <button
               onClick={() => {
+                trackEvent("click", "CTA", "hero_hace_tu_consulta");
                 const phoneNumber = "5493585134637";
                 const message = "Hola! Quería hacer una consulta legal:";
                 const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -50,6 +52,7 @@ export function Hero() {
             <button
               className="px-6 py-3 border border-white text-white hover:bg-white/10 rounded-lg transition-colors"
               onClick={() => {
+                trackEvent("click", "CTA", "hero_nuestros_servicios");
                 const element = document.getElementById("servicios");
                 if (element) {
                   element.scrollIntoView({ behavior: "smooth" });
