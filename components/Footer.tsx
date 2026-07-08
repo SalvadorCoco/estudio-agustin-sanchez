@@ -102,7 +102,7 @@ export function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>Amparos de Salud</li>
               <li>Derecho civil y comercial</li>
-              <li>Riesgo de Trabajo</li>
+              <li>Derecho Laboral</li>
               <li>Derecho sucesorio</li>
               <li>Derecho inmobiliario y reales</li>
               <li>Derecho penal</li>

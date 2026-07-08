@@ -21,9 +21,9 @@ const services = [
   },
   {
     icon: Users,
-    title: "Riesgo de Trabajo",
+    title: "Derecho Laboral",
     description:
-      "Brindamos asesoramiento frente a ART por enfermedades o accidentes laborales.",
+      "Brindamos asesoramiento por despidos y frente a ART por accidentes y enfermedades laborales.",
   },
   {
     icon: FileText,
