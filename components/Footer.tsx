@@ -101,11 +101,11 @@ export function Footer() {
             <h3 className="mb-4">Áreas de Práctica</h3>
             <ul className="space-y-2 text-gray-400">
               <li>Amparos de Salud</li>
-              <li>Derecho civil y comercial</li>
+              <li>Derecho Civil y Comercial</li>
               <li>Derecho Laboral</li>
-              <li>Derecho sucesorio</li>
-              <li>Derecho inmobiliario y reales</li>
-              <li>Derecho penal</li>
+              <li>Derecho Sucesorio</li>
+              <li>Derecho Inmobiliario y Reales</li>
+              <li>Derecho Penal</li>
             </ul>
           </div>
         </div>
