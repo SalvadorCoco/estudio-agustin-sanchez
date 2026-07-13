@@ -93,7 +93,7 @@ export function SuccessCases() {
           <div className="inline-block px-4 py-2 bg-white rounded-full mb-4 text-sm text-gray-700 border border-gray-200">
             Testimonios
           </div>
-          <h2 className="mb-4 text-gray-900">Esto Opinan Quiénes Nos Conocen</h2>
+          <h2 className="mb-4 text-gray-900">Esto Opinan Quienes Nos Conocen</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             La satisfacción de nuestros clientes es nuestra mejor carta de presentación.
           </p>

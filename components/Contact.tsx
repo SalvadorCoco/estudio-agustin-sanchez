@@ -115,9 +115,9 @@ export function Contact() {
             </div>
 
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
-              <h3 className="mb-4 text-gray-900">Agenda tu consulta!</h3>
+              <h3 className="mb-4 text-gray-900">¡Agenda tu consulta!</h3>
               <p className="text-gray-600 mb-4">
-                En nuestra primer consulta evaluamos tu caso y te brindamos una
+                En nuestra primera consulta evaluamos tu caso y te brindamos una
                 orientación inicial sobre los pasos a seguir.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">

@@ -20,7 +20,7 @@ export function Hero() {
       <div className="container mx-auto max-w-6xl px-4 py-12 relative z-10">
         <div className="max-w-2xl">
           <div className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full mb-6 text-sm text-white">
-            Más de 5 años de experiencia
+            Más de 6 años de experiencia
           </div>
           <h1 className="mb-6 text-white">
             Defendemos tus derechos con excelencia y compromiso
@@ -46,7 +46,7 @@ export function Hero() {
               }}
               className="px-6 py-3 bg-[#C4B454] text-gray-900 hover:bg-[#B3A34D] rounded-lg transition-colors inline-flex items-center gap-2"
             >
-              Hace tu Consulta
+              Hacé tu Consulta
               <ArrowRight className="w-4 h-4" />
             </button>
             <button

@@ -31,7 +31,7 @@ const fallbackTestimonials: Testimonial[] = [
     cargo: "Cliente",
     date: "21/11/2024",
     rating: 5,
-    text: "Totalmente agradecida y conforme con el servicio brindado. Es una persona concreta, cordial y atenta en todo. Super recomendable.",
+    text: "Totalmente agradecida y conforme con el servicio brindado. Es una persona concreta, cordial y atenta en todo. Súper recomendable.",
     avatar: "LM",
   },
 ];

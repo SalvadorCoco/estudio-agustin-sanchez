@@ -8,7 +8,7 @@ const lawyers = [
     photo: "/agustin.webp",
     description: "Abogado egresado en la Universidad Nacional de Río Cuarto",
     detail:
-      "Diplomado en Compliance, Ética Corporativa y Dirección de Procesos de Integridad (en curso). Avocado a los Amparos de Salud, además de otras ramas del derecho.",
+      "Diplomado en Compliance, Ética Corporativa y Dirección de Procesos de Integridad (en curso). Abocado a los Amparos de Salud, además de otras ramas del derecho.",
     badges: ["M.P 2-1806", "M.F T° 509 F° 846"],
     cvAction: true,
   },
@@ -18,7 +18,7 @@ const lawyers = [
     photo: "/sofia.webp",
     description: "Abogada egresada en la Universidad Nacional de Río Cuarto",
     detail:
-      "Gestora del Automotor y de Créditos Prendarios. Avocada al Derecho Penal, además de otras ramas del derecho.",
+      "Gestora del Automotor y de Créditos Prendarios. Abocada al Derecho Penal, además de otras ramas del derecho.",
     badges: ["M.P 2-2319", "M.F T° 511 F° 840"],
     cvAction: false,
   },
@@ -28,7 +28,7 @@ const lawyers = [
     photo: "/gustavo.webp",
     description: "Abogado egresado en la Universidad Empresarial Siglo XXI",
     detail:
-      "Corredor Inmobiliario y Perito Tasador. Avocado al Derecho Inmobiliario, además de otras ramas del derecho.",
+      "Corredor Inmobiliario y Perito Tasador. Abocado al Derecho Inmobiliario, además de otras ramas del derecho.",
     badges: ["M.P 2-2261", "C.P.I 045993"],
     cvAction: false,
   },
