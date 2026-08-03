@@ -55,9 +55,7 @@ export function Contact() {
             </div>
             <h3 className="mb-2 text-gray-900">Email</h3>
             <p className="text-gray-600">
-              ab.agustinsanchez@gmail.com
-              <br />
-              abog.sofialanzelotta@gmail.com
+abogados@sanchezlanzelotta.com.ar              
             </p>
           </div>
         </div>
