@@ -131,10 +131,16 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-          <p>
-            © 2026 Estudio Jurídico Sanchez y Lanzelotta. Todos los derechos
-            reservados.
-          </p>
+          <div className="text-center md:text-left">
+            <p>
+              © 2026 Estudio Jurídico Sanchez y Lanzelotta. Todos los derechos
+              reservados.
+            </p>
+            <p className="text-xs text-gray-500 mt-1">
+              Este sitio usa Google Analytics para medir visitas de forma
+              anónima y agregada. No guardamos datos personales.
+            </p>
+          </div>
           <div className="flex gap-6">
             <a
               href="mailto:salvadorcocosanchez@gmail.com"
