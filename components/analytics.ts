@@ -33,6 +33,7 @@ function locationOf(el: Element): string {
  * Clics declarativos: cualquier elemento con data-track="id" se mide solo.
  *   data-track="hero_consulta"            -> evento por defecto: cta_click
  *   data-track-event="outbound_click"     -> otro tipo de evento
+ *   data-track-goal="consulta_whatsapp"   -> además dispara este evento (resultado de negocio)
  * Se envía además link_location (dónde está). Nunca se envía texto de usuarios.
  */
 function initClickTracking() {
@@ -41,10 +42,14 @@ function initClickTracking() {
     (e) => {
       const target = (e.target as Element | null)?.closest?.("[data-track]");
       if (!target) return;
-      track(target.getAttribute("data-track-event") || "cta_click", {
+      const params = {
         link_id: target.getAttribute("data-track") || "",
         link_location: locationOf(target),
-      });
+      };
+      track(target.getAttribute("data-track-event") || "cta_click", params);
+      // Evento extra para lo que cuenta como resultado de negocio (evento clave en GA4)
+      const goal = target.getAttribute("data-track-goal");
+      if (goal) track(goal, params);
     },
     true,
   );

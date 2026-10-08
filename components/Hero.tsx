@@ -32,6 +32,7 @@ export function Hero() {
           <div className="flex flex-wrap gap-4">
             <button
               data-track="hero_consulta_whatsapp"
+              data-track-goal="consulta_whatsapp"
               onClick={() => {
                 const phoneNumber = "5493585134637";
                 const message = "Hola! Quería hacer una consulta legal:";

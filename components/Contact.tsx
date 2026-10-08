@@ -66,6 +66,7 @@ abogados@sanchezlanzelotta.com.ar
 
             <button
               data-track="contacto_whatsapp"
+              data-track-goal="consulta_whatsapp"
               onClick={handleClickWhatsApp}
               className="group relative flex items-center justify-center gap-3 w-full max-w-sm px-8 py-4 bg-[#25D366] hover:bg-[#128C7E] text-white rounded-xl font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
             >
