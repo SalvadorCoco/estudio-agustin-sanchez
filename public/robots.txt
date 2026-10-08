@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://estudiojuridico-sanchez.com.ar/sitemap.xml
+Sitemap: https://abogados-sanchezlanzelotta.com.ar/sitemap.xml
