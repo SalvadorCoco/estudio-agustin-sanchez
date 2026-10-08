@@ -7,13 +7,13 @@ Así podemos ver cuánta gente llega desde Instagram, Facebook o Google, y cuál
 
 | Dónde ponerlo | Link |
 |---|---|
-| Instagram: link de la bio | https://estudiojuridico-sanchez.com.ar/?utm_source=instagram&utm_medium=bio |
-| Facebook: sitio web del perfil o página | https://estudiojuridico-sanchez.com.ar/?utm_source=facebook&utm_medium=perfil |
-| LinkedIn: sitio web del perfil | https://estudiojuridico-sanchez.com.ar/?utm_source=linkedin&utm_medium=perfil |
-| YouTube: link del canal | https://estudiojuridico-sanchez.com.ar/?utm_source=youtube&utm_medium=canal |
-| Ficha de Google (Google Business Profile): campo "Sitio web" | https://estudiojuridico-sanchez.com.ar/?utm_source=google&utm_medium=business_profile |
-| Firma del mail | https://estudiojuridico-sanchez.com.ar/?utm_source=email&utm_medium=firma |
-| Tarjetas, folletos o QR impresos | https://estudiojuridico-sanchez.com.ar/?utm_source=tarjeta&utm_medium=offline |
+| Instagram: link de la bio | https://abogados-sanchezlanzelotta.com.ar/?utm_source=instagram&utm_medium=bio |
+| Facebook: sitio web del perfil o página | https://abogados-sanchezlanzelotta.com.ar/?utm_source=facebook&utm_medium=perfil |
+| LinkedIn: sitio web del perfil | https://abogados-sanchezlanzelotta.com.ar/?utm_source=linkedin&utm_medium=perfil |
+| YouTube: link del canal | https://abogados-sanchezlanzelotta.com.ar/?utm_source=youtube&utm_medium=canal |
+| Ficha de Google (Google Business Profile): campo "Sitio web" | https://abogados-sanchezlanzelotta.com.ar/?utm_source=google&utm_medium=business_profile |
+| Firma del mail | https://abogados-sanchezlanzelotta.com.ar/?utm_source=email&utm_medium=firma |
+| Tarjetas, folletos o QR impresos | https://abogados-sanchezlanzelotta.com.ar/?utm_source=tarjeta&utm_medium=offline |
 
 **Reglas simples**
 - No cambies nada de lo que está después del `?`.
