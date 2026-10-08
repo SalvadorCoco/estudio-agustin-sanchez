@@ -28,6 +28,8 @@ export function Footer() {
             <div className="flex gap-3">
               <a
                 href="https://www.facebook.com/abogado.agustinsanchez"
+                data-track="red_facebook"
+                data-track-event="outbound_click"
                 target={
                   typeof window !== "undefined" && window.innerWidth <= 768
                     ? "_self"
@@ -40,6 +42,8 @@ export function Footer() {
               </a>
               <a
                 href="https://www.instagram.com/abogado.agustinsanchez/"
+                data-track="red_instagram"
+                data-track-event="outbound_click"
                 target={
                   typeof window !== "undefined" && window.innerWidth <= 768
                     ? "_self"
@@ -52,6 +56,8 @@ export function Footer() {
               </a>
               <a
                 href="https://www.linkedin.com/in/agustinsanchez95/"
+                data-track="red_linkedin"
+                data-track-event="outbound_click"
                 target={
                   typeof window !== "undefined" && window.innerWidth <= 768
                     ? "_self"
@@ -64,6 +70,8 @@ export function Footer() {
               </a>
               <a
                 href="https://www.youtube.com/@abogado.agustinsanchez"
+                data-track="red_youtube"
+                data-track-event="outbound_click"
                 target={
                   typeof window !== "undefined" && window.innerWidth <= 768
                     ? "_self"
@@ -130,6 +138,8 @@ export function Footer() {
           <div className="flex gap-6">
             <a
               href="mailto:salvadorcocosanchez@gmail.com"
+                data-track="footer_credito_desarrollador"
+                data-track-event="outbound_click"
               className="hover:text-white transition-colors"
             >
               Web desarrollada por Salvador Sanchez

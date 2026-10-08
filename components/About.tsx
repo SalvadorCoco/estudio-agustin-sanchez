@@ -179,6 +179,8 @@ export function About() {
                   </div>
                   <a
                     href="https://share.google/pzHDB9LInrnuTzFBa"
+                    data-track="mapa_rio_cuarto"
+                    data-track-event="outbound_click"
                     target={
                       typeof window !== "undefined" && window.innerWidth <= 768
                         ? "_self"
@@ -219,6 +221,8 @@ export function About() {
                   </div>
                   <a
                     href="https://share.google/Uo0y7DzsOTg4CSJTS"
+                    data-track="mapa_san_basilio"
+                    data-track-event="outbound_click"
                     target={
                       typeof window !== "undefined" && window.innerWidth <= 768
                         ? "_self"

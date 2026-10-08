@@ -1,9 +1,8 @@
 import { ArrowRight } from "lucide-react";
-import { trackEvent } from "./analytics";
 
 export function Hero() {
   return (
-    <section className="relative pt-20 min-h-screen flex items-center">
+    <section id="inicio" className="relative pt-20 min-h-screen flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -32,8 +31,8 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <button
+              data-track="hero_consulta_whatsapp"
               onClick={() => {
-                trackEvent("click", "CTA", "hero_hace_tu_consulta");
                 const phoneNumber = "5493585134637";
                 const message = "Hola! Quería hacer una consulta legal:";
                 const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
@@ -50,9 +49,9 @@ export function Hero() {
               <ArrowRight className="w-4 h-4" />
             </button>
             <button
+              data-track="hero_ver_servicios"
               className="px-6 py-3 border border-white text-white hover:bg-white/10 rounded-lg transition-colors"
               onClick={() => {
-                trackEvent("click", "CTA", "hero_nuestros_servicios");
                 const element = document.getElementById("servicios");
                 if (element) {
                   element.scrollIntoView({ behavior: "smooth" });

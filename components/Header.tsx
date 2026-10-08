@@ -27,24 +27,28 @@ export function Header() {
 
         <nav className="hidden md:flex items-center gap-8">
           <button
+            data-track="nav_servicios" data-track-event="nav_click"
             onClick={() => scrollToSection("servicios")}
             className="text-gray-600 hover:text-[#C4B454] transition-colors"
           >
             Servicios
           </button>
           <button
+            data-track="nav_testimonios" data-track-event="nav_click"
             onClick={() => scrollToSection("casos")}
             className="text-gray-600 hover:text-[#C4B454] transition-colors"
           >
             Testimonios
           </button>
           <button
+            data-track="nav_sobre_nosotros" data-track-event="nav_click"
             onClick={() => scrollToSection("sobre")}
             className="text-gray-600 hover:text-[#C4B454] transition-colors"
           >
             Sobre Nosotros
           </button>
           <button
+            data-track="nav_contacto"
             onClick={() => scrollToSection("contacto")}
             className="px-6 py-2 bg-[#C4B454] hover:bg-[#B3A34D] text-gray-900 rounded-lg transition-colors"
           >
